@@ -1,0 +1,8 @@
+<?php /** @var umiTemplaterPHP $this */ ?>
+<?php /** @var array $variables */ ?>
+
+<form action="<?= $variables['purchasing']['payment_url']  ?>" method="get">
+    <div>
+        <input type="submit" value="<?= $this->translate('pay') ?>" class="button big"/>
+    </div>
+</form>
